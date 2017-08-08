@@ -1,0 +1,6 @@
+<h1>Ajouter une tache</h1>
+
+<%= form_for @task do |t| %>
+  <%= t.text_field :name %>
+  <%= t.submit 'Creer une tache' %>
+<% end %>
